@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mini Quiz</string>
+    <string name="question">First Question</string>
+    <string name="option">Option</string>
+    <string name="time">00:00</string>
+    <string name="jumlah_pertanyaan">Jumlah Pertanyaan</string>
+    <string name="benar">Benar</string>
+    <string name="salah">Salah</string>
+    <string name="hasil_akhir">Hasil Akhir</string>
+</resources>

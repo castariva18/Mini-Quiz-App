@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:textAlignment="center"
+            android:textColor="#393737"
+            android:padding="10dp"
+            android:textSize="28sp"
+            android:text="@string/question"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_option1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/option"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_option2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:text="@string/option"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_option3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/option"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_option4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:text="@string/option"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:padding="5dp"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="28sp"-->
+<!--                android:text="@string/time"-->
+<!--                android:textAlignment="center"-->
+<!--                android:id="@+id/tv_time" />-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</RelativeLayout>

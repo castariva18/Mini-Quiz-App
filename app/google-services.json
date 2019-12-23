@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "117334860802",
+    "firebase_url": "https://miniquiz-b27c7.firebaseio.com",
+    "project_id": "miniquiz-b27c7",
+    "storage_bucket": "miniquiz-b27c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117334860802:android:958b22ccfe2dba7791b31b",
+        "android_client_info": {
+          "package_name": "org.ganymede.miniquizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117334860802-9udt2vef13ddvnvqcp7vmaoi1i3hqsed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.ganymede.miniquizapp",
+            "certificate_hash": "581887c72aefdd851a4fed3151af5944109d5f93"
+          }
+        },
+        {
+          "client_id": "117334860802-5pq4c13d75ib4bpuhbbilaarf62vt024.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCODI-V8uFj1jZm8-FRmg2gP2sYPLSTJ94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117334860802-5pq4c13d75ib4bpuhbbilaarf62vt024.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
